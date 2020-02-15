@@ -1,7 +1,7 @@
 {
   "name": "react-native-deep-link-with-response",
   "title": "React Native Deep Link With Response",
-  "version": "1.0.0",
+  "version": "1.0.25",
   "description": "TODO",
   "main": "index.js",
   "scripts": {
