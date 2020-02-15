@@ -18,7 +18,7 @@ import com.facebook.react.bridge.WritableNativeMap;
 import java.util.HashMap;
 import java.util.Map;
 
-public class DeepLinkWithResponseModule extends ReactContextBaseJavaModule implements ActivityEventListener {
+public class DeepLinkWithResponseModule extends ReactContextBaseJavaModule implements RNCActivityEventListener {
     final SparseArray<Promise> mPromises;
     private final ReactApplicationContext reactContext;
 

@@ -16,9 +16,9 @@ import {
   View,
   TextInput,
   Button,
+  Linking,
 } from 'react-native';
-import DeepLinkWithResponse from 'react-native-deep-link-with-response';
-import ComunicationHardware from 'react-native-getnet-hardware-communication';
+import DeepLinkWithResponse from 'react-native-community-deep-link-with-response';
 const styles = StyleSheet.create({
   container: {
     flex: 1,
