@@ -1,8 +1,8 @@
 {
   "name": "react-native-deep-link-with-response",
   "title": "React Native Deep Link With Response",
-  "version": "1.0.25",
-  "description": "TODO",
+  "version": "1.0.26",
+  "description": "Module for react-native that uses deep-link call with answers",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

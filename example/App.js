@@ -18,7 +18,7 @@ import {
   Button,
   Linking,
 } from 'react-native';
-import DeepLinkWithResponse from 'react-native-community-deep-link-with-response';
+import DeepLinkWithResponse from 'react-native-deep-link-with-response';
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -85,8 +85,10 @@ export default function App() {
         placeholder={'type it the value(only number):'}
         style={styles.input}
         keyboardType="numeric"
+        value={value}
+        onChange={text => setValue(text)}
       />
-      <Button title="Press" onPress={() => pay(1000)} />
+      <Button title="Press" onPress={() => pay(value)} />
     </View>
   );
 }
